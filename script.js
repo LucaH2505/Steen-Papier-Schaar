@@ -96,7 +96,7 @@ function displayResult(userChoice, computerChoice, winner) {
     // Resultaat na 3 seconden verbergen
     setTimeout(() => {
         resultBox.classList.remove('show');
-    }, 3000);
+    }, 1500);
 
     resultMessage.textContent = 'Maak je keuze!';
 }
