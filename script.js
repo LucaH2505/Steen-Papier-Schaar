@@ -29,7 +29,7 @@ function playGame(userChoice) {
         updateScores(winner);
         // Resultaat weergeven
         displayResult(userChoice, computerChoice, winner);
-    }, 2000); // Wacht 2 seconden voordat het resultaat opkomt
+    }, 1000); // Wacht 2 seconden voordat het resultaat opkomt
 }
 
 // Functie om de animatie van de keuze te starten
